@@ -1,0 +1,20 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "An Express JavaScript Framework Note-Taking Application!",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Note-Taking Application",
+    "Notes",
+    "Notes Application"
+  ],
+  "author": "Emily Simone",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "uuid": "^3.4.0"
+  }
+}

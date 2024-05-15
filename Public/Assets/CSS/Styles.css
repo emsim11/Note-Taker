@@ -1,0 +1,89 @@
+/* Global Styles */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Buttons */
+.Icons {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.Save-Note,
+.New-Note, 
+.Clear-Btn {
+    display: none;
+}
+
+/* Notes List */
+.List-Container {
+    padding-left: 0;
+}
+
+.List-Container i {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.List-Container .Card {
+    height: calc(100vh - 70px);
+    border-bottom: none;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.List-Group-Item {
+    font-size: 20px;
+    list-style: none;
+}
+
+.List-Container .List-Group,
+.List-Container .List-Group-Item:first-child,
+.List-Container .Card {
+    border-top: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.List-Container .List-Group-Item {
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.List-Item-Title {
+    display: inline-block;
+    width: 75%;
+}
+
+/* Note Form */
+.Note-Title {
+    height: 50px;
+    margin-top: 13px;
+    font-size: 3rem;
+}
+
+.Note-TextArea {
+    resize: none;
+    height: calc(100% - 63px);
+    padding-top: 15px;
+}
+
+.Note-TextArea,
+.Note-Title {
+    color: #000;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.Note-Title:read-only,
+.Note-TextArea:read-only {
+    color: #757575;
+}
